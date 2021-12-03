@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .btn {background-color: #4CAF50;} /* Green */
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+
+<div class="button">
+  <div class="center">
+    <form action = "/index_html" method="POST">
+      <button type="button" class="button btn" onclick="location.href='/index_html'">Start Live sketch</button>
+    </form>
+    
+  </div>
+</div>
+<script>
+  <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+</script>
+</body>
+</html>
